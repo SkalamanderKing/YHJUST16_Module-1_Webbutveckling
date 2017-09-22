@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+html {
+  background: url(lulea2.jpg) no-repeat center fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+   color: white;
+   width: 660px;
+   margin: 0 auto;
+   text-align:left;
+   border-bottom: 1px solid #ddd;
+}
+.nav {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+	background-color: #333;
+	top: 0; /* Position the navbar at the top of the page */
+    margin-top: 140px;
+    padding: 0px;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    width: 660px; 
+	z-index: 1; /* buttons in front of a navbar */
+}
+li {
+	list-style-type: none;
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+p { 
+	font-size: 90%;
+	line-height: 110%;
+}
+.bottom {
+	border-top: 1px solid #ddd;
+    padding: 10px;
+	text-align: center;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the top of the page */
+    width: 660px; 
+	background-color: #333;
+}
+a:link {
+    color: white;  /* unvisited link */
+}
+a:visited {
+    color: white;  /* visited link */
+}
+a:hover {
+	color: lightgrey;  /* mouse over link */
+}
+a:active {
+    color: grey;  /* selected link */
+}
+
+/***********kontakt-sida*************/
+
+div.transbox 
+{
+	background-color: #ffffff;
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+	margin-left: 27%;
+	background-color: #ffffff;
+	border: 2px solid black;
+	width:360px;
+	height:520px;
+ 	z-index: -1;
+}
+div.transbox p 
+{
+	margin: 5%;
+	font-size: 14px;
+	color: black;
+}
+section
+{
+	width: 80%;
+	height: 200px;
+	margin: auto;
+	padding: 10px;
+}
+.one
+{
+	background: url(peo.png);
+	background-repeat:no-repeat;
+	border: 2px solid black;
+	width:128px;
+	height:520px;
+	float: left;
+	z-index: 1;
+}
